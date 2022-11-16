@@ -1,6 +1,9 @@
 Algoritmo "REGRA DE 3 SIMPLES"
+//Douglas da Costa Gomes
+//o programa resolve regra de 3 simples desde que o usuÃ¡rio apresente se Ã© uma grandesa diretamente ou inversamente proporcional
 
 Var
+//declaraÃ§Ã£o de variÃ¡veis
    nmrd1, nmrd2, denom1, denom2 : inteiro
    gip, gdp, rg: caracter
    gip1, gdp1 : real
@@ -9,7 +12,7 @@ Inicio
 
 mudacor ("branco","fundos")
 mudacor ("preto","frente")
-
+//aparÃªncia principal do programa
 timer (300)
 escreval ("==================================================")
 escreval("   __   ___  ___   __   ___      _    ___    ___    ")
@@ -20,19 +23,21 @@ escreval("  | \  |___ |___| | \  |   |    |_/  |___    ___|   ")
 escreval(" ")
 escreval ("==================================================")
 escreval (" ")
-escreval ("Observe a ordem dos valores antes de inserí-los!")
+escreval ("Observe a ordem dos valores antes de inserÃ­-los!")
+//modo que a mÃ¡quina calcularÃ¡
 escreval (" ")
 escreval ("                                   GDP")
-escreval ("            GIP                  1º   2º")
+escreval ("            GIP                  1Âº   2Âº")
 escreval ("                                  \  / ")
-escreval ("         1º ––– 2º                 \/ ")
-escreval ("         3º ––– X                  /\ ")
+escreval ("         1Âº â€“â€“â€“ 2Âº                 \/ ")
+escreval ("         3Âº â€“â€“â€“ X                  /\ ")
 escreval ("                                  /  \")
-escreval ("                                 3º   X")
+escreval ("                                 3Âº   X")
 timer (0)
 escreval (" ")
 escreval ("==================================================")
 escreval (" ")
+//inserÃ§Ã£o dos valores
 escreval ("Insira o valor 1.")
 leia (nmrd1)
 escreval (" ")
@@ -45,7 +50,7 @@ escreval (" ")
 
 gip <- ("Grandezas inversamente proporcionais")
 gdp <- ("Grandezas diretamente proporcionais")
-
+//repetiÃ§Ã£o 
 limpatela
 escreval (" ")
 timer (300)
@@ -59,35 +64,36 @@ escreval(" ")
 escreval ("==================================================")
 escreval (" ")
 escreval ("                                   GDP")
-escreval ("            GIP                  1º   2º")
+escreval ("            GIP                  1Âº   2Âº")
 escreval ("                                  \  / ")
-escreval ("         1º ––– 2º                 \/ ")
-escreval ("         3º ––– X                  /\ ")
+escreval ("         1Âº â€“â€“â€“ 2Âº                 \/ ")
+escreval ("         3Âº â€“â€“â€“ X                  /\ ")
 escreval ("                                  /  \")
-escreval ("                                 3º   X")
+escreval ("                                 3Âº   X")
 timer (0)
 escreval (" ")
 escreval ("==================================================")
 escreval (" ")
-escreval ("Essa regra de 3 é: GIP ou GDP")
+escreval ("Essa regra de 3 Ã©: GIP ou GDP")
 leia (rg)
-     se (rg = "gip") entao
+//para o programa descobrir qual fÃ³rmula utilizar
+   se (rg = "gip") entao
         escreval(" ")
         escreval (gip)
         escreval (" ")
         mudacor ("azul","frente")
                 gip1 <- (nmrd1*nmrd2)/denom1
-        escreval ("O valor da incógnita é: ",gip1)
+        escreval ("O valor da incÃ³gnita Ã©: ",gip1)
         senao
              se (rg = "gdp") entao
                 escreval (gdp)
                 escreval (" ")
                 mudacor ("verde","frente")
                         gdp1 <- (nmrd2*denom1)/nmrd1
-                escreval ("O valor da incógnita é: ",gdp1)
+                escreval ("O valor da incÃ³gnita Ã©: ",gdp1)
                 senao
                      escreval (" ")
-                     escreval ("Você escreveu algo errado, repita por favor!")
+                     escreval ("VocÃª escreveu algo errado, repita por favor!")
                      mudacor ("vermelho", "frente")
              fimse
      fimse
