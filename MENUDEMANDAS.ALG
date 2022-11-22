@@ -1,12 +1,12 @@
 Algoritmo "MENU DEMANDAS"
-// Algoritmo e LÛgica de ProgramaÁ„o
-// DescriÁ„o   : O programa resolve uma lista de problemas de matem·tica e alguns variados como IMC, dentro h· a listagem, faÁa bom uso!
+// Algoritmo e L√≥gica de Programa√ß√£o
+// Descri√ß√£o   : O programa resolve uma lista de problemas de matem√°tica e alguns variados como IMC, dentro h√° a listagem, fa√ßa bom uso!
 // Autor(a)    : DOUGLAS DA COSTA GOMES  - TURMA 2M
 // Data atual  : 11/16/2022
 
 
 Var
-   // SeÁ„o de DeclaraÁıes das vari·veis
+   // Se√ß√£o de Declara√ß√µes das vari√°veis
 
    equaCC, areaSolid, an, a1, a2, r, menu, menu1, operaC, looP, vaMo, seiNs, numMed, start, rest: inteiro
    a, b, s, x, n, na, raiz, c, sb, porcent, disTan, gastoTotal, gastoAuto, potenc, nota1, nota2, prova, valor1, valor2, valor3, media, maximo, minimo, divis, soma, subtra, multp, provaInter, total: real
@@ -16,9 +16,9 @@ Var
    k, m : inteiro
 
 Inicio
-   // SeÁ„o de Comandos, procedimento, funÁıes, operadores, etc...
+   // Se√ß√£o de Comandos, procedimento, fun√ß√µes, operadores, etc...
 
-   //nome de usu·rio para interaÁ„o
+   //nome de usu√°rio para intera√ß√£o
    escreval("")
    escreval("      ___  _____               ")
    escreval(" .'/,-Y'     '~-.              ")
@@ -40,18 +40,18 @@ Inicio
    escreval("")
    escreval("Pressione ENTER para INICIAR")
    leia(start)
-   escreval("Ol·, para melhor interaÁ„o, diga para mim...")
+   escreval("Ol√°, para melhor intera√ß√£o, diga para mim...")
    escreval("")
-   escreval("---> Por qual nome vocÍ deseja ser chamado?")
+   escreval("---> Por qual nome voc√™ deseja ser chamado?")
    leia(nomeUsu)
-   //instruÁıes e apresentaÁ„o aos desconhecidos
-   escreval("VocÍ sabe para que serve o programa?")
-   escreval("*(DIGITE 1 para SIM ou 2 para N√O)*")
+   //instru√ß√µes e apresenta√ß√£o aos desconhecidos
+   escreval("Voc√™ sabe para que serve o programa?")
+   escreval("*(DIGITE 1 para SIM ou 2 para N√ÉO)*")
    leia(seiNs)
    se (seiNs = 1) entao
       limpatela()
       escreval("")
-      escreval("Hmmmm! Ok, ent„o ",nomeUsu,". Vamos direto ao ponto. :-D")
+      escreval("Hmmmm! Ok, ent√£o ",nomeUsu,". Vamos direto ao ponto. :-D")
       escreval("")
       escreval("Pressione ENTER para ser direcionado ao menu.")
       leia(looP)
@@ -59,20 +59,20 @@ Inicio
       se (seiNs = 2) entao
          limpatela()
          escreval("")
-         escreval("Tudo bem ent„o ",nomeUsu,", vou te explicar.")
+         escreval("Tudo bem ent√£o ",nomeUsu,", vou te explicar.")
          escreval("")
          escreval("Este programa soluciona os seguintes problemas:")
          escreval("")
-         escreval("- IMC (Ìndice de massa corportal com diagnÛstico")
-         escreval("- OperaÁıes matem·ticas (soma, subt., divis„o, multp,...")
-         escreval("- Gasto de combustÌvel: litros por Km")
-         escreval("- EquaÁ„o do primeiro e segundo grau")
-         escreval("- AvaliaÁ„o das notas de um aluno")
-         escreval("- ¡rea de alguns poliedros")
-         escreval("- Teorema de pit·goras")
+         escreval("- IMC (√≠ndice de massa corportal com diagn√≥stico")
+         escreval("- Opera√ß√µes matem√°ticas (soma, subt., divis√£o, multp,...")
+         escreval("- Gasto de combust√≠vel: litros por Km")
+         escreval("- Equa√ß√£o do primeiro e segundo grau")
+         escreval("- Avalia√ß√£o das notas de um aluno")
+         escreval("- √Årea de alguns poliedros")
+         escreval("- Teorema de pit√°goras")
          escreval("")
-         escreval("Ufa! Estes s„o todos as demandas solucion·veis com este programa.")
-         escreval("Agora, vamos l· us·-los. Pressione ENTER para prosseguir!")
+         escreval("Ufa! Estes s√£o todos as demandas solucion√°veis com este programa.")
+         escreval("Agora, vamos l√° us√°-los. Pressione ENTER para prosseguir!")
          leia(looP)
       fimse
    fimse
@@ -84,7 +84,7 @@ Inicio
 
       //redirecionamento ao menu
       escreval("|-----------------------------------------------------------|")
-      escreval("     Ok Sr(a) ",nomeUsu," vocÍ ser· redirecionado ao menu    ")
+      escreval("     Ok Sr(a) ",nomeUsu," voc√™ ser√° redirecionado ao menu    ")
       escreval("|-----------------------------------------------------------|")
       timer (300)
       escreva(".")
@@ -95,49 +95,49 @@ Inicio
       escreval("")
       escreval("Tudo pronto!?")
       escreval("")
-      escreval("Vamos l· ent„o!")
+      escreval("Vamos l√° ent√£o!")
       escreval("")
       escreval("")
       timer (0)
       limpatela()
 
-      //cabeÁalho
+      //cabe√ßalho
       escreval("")
       escreval("|------------------------------------------------------------|")
       escreval("                      BEM VINDO ",nomeUsu,"!                   ")
       escreval("|     Este programa soluciona diversos tipos de demandas     |")
       escreval("|                                                            |")
       escreval("|------------------------------------------------------------|")
-      escreval("|  Abaixo, observe suas funcionalidades e, faÁa sua escolha. |")
+      escreval("|  Abaixo, observe suas funcionalidades e, fa√ßa sua escolha. |")
       escreval("|------------------------------------------------------------|")
       escreval("")
 
       //menu principal
-      escreval("  Digite o N⁄MERO destacado para acessar o programa desejado:")
+      escreval("  Digite o N√öMERO destacado para acessar o programa desejado:")
       escreval("")
-      escreval("( 1 )  AvaliaÁ„o das notas de um aluno")
+      escreval("( 1 )  Avalia√ß√£o das notas de um aluno")
       escreval("")
-      escreval("( 2 )  OperaÁıes matem·ticas (soma, subt., divis„o, multp,...")
+      escreval("( 2 )  Opera√ß√µes matem√°ticas (soma, subt., divis√£o, multp,...")
       escreval("")
-      escreval("( 3 )  Gasto de combustÌvel: litros por Km")
+      escreval("( 3 )  Gasto de combust√≠vel: litros por Km")
       escreval("")
-      escreval("( 4 )  EquaÁ„o do primeiro e segundo grau")
+      escreval("( 4 )  Equa√ß√£o do primeiro e segundo grau")
       escreval("")
-      escreval("( 5 )  IMC (Ìndice de massa corportal com diagnÛstico")
+      escreval("( 5 )  IMC (√≠ndice de massa corportal com diagn√≥stico")
       escreval("")
-      escreval("( 6 )  Teorema de pit·goras simples")
+      escreval("( 6 )  Teorema de pit√°goras simples")
       escreval("")
-      escreval("( 7 )  ¡rea de alguns sÛlidos geomÈtricos")
+      escreval("( 7 )  √Årea de alguns s√≥lidos geom√©tricos")
       escreval("")
       escreva("( 8 )  Para SAIR do programa   ")
-      escreval("{{ n„o me deixe ainda :-/ }}")
+      escreval("{{ n√£o me deixe ainda :-/ }}")
       escreval("")
-      escreval("O que vocÍ deseja?")
+      escreval("O que voc√™ deseja?")
       leia(menu)
 
       escolha(menu)
 
-         //inicio do CASO 1 avaliaÁ„o do aluno
+         //inicio do CASO 1 avalia√ß√£o do aluno
       caso 1
          limpatela()
          Escreval("Informe o nome do aluno: ")
@@ -163,7 +163,7 @@ Inicio
             escreval("")
             Escreval("O aluno(a) ",aluno," foi aprovado(a)! ")
             Escreval("Sua nota total foi de", total," pontos.")
-         sen„o
+         sen√£o
             se (total <6) e (total >=4) entao
                escreval("")
                escreval("_________________________________________________________________________________________________")
@@ -173,9 +173,9 @@ Inicio
                escreval("  /    |   /        /        /    /    /        /        /    |   /   |  /        /   |  /    /        ")
                escreval("_/_____|__/____ ___(____/___(____/____/________/____ ___/_____|__/____|_(____/___/____|_(____/___      ")
                escreval("")
-               Escreval("O aluno(a), ",aluno," est· de recuperaÁ„o")
+               Escreval("O aluno(a), ",aluno," est√° de recupera√ß√£o")
                Escreval("Sua nota total foi de ", total," pontos.")
-            sen„o
+            sen√£o
                escreval("")
                escreval("______________________________________________________________________________        ")
                escreval("    ____     _____    ____     ____       __   _    _   __     _____      __          ")
@@ -192,7 +192,7 @@ Inicio
          escreval("Para voltar ao menu, pressione ENTER.")
          Leia(looP)
 
-         //inicio do caso 2 operaÁıes matem·ticas
+         //inicio do caso 2 opera√ß√µes matem√°ticas
       caso 2
          enquanto (operaC <> 11) faca
             limpatela()
@@ -204,23 +204,23 @@ Inicio
             escreval("\ \_/ / |   | |___| |\ \| | | | \__/\ \_/ / |___/\__/ /  ")
             escreval(" \___/\_|   \____/\_| \_\_| |_/\____/\___/\____/\____/   ")
             escreval("")
-            escreval("Digite o N⁄MERO da operaÁ„o desejada:")
+            escreval("Digite o N√öMERO da opera√ß√£o desejada:")
             escreval("                                       [DOIS VALORES]   [UM VALOR]")
             escreval("*( 1 )  SOMA                         |      ( X )     |    (   )  ")
-            escreval("*( 2 )  SUBTRA«√O                    |      ( X )     |    (   )  ")
-            escreval("*( 3 )  MULTIPLICA«√O                |      ( X )     |    (   )  ")
-            escreval("*( 4 )  DIVIS√O E RESTO              |      ( X )     |    (   )  ")
-            escreval("*( 5 )  M¡XIMO E MINIMO              |      ( X )     |    ( X )  ")
-            escreval("*( 6 )  M…DIA ARITM…TICA             |      ( X )     |    ( X )  ")
-            escreval("*( 7 )  PROGRESS√O ARITM…TICA        |      (   )     |    ( X )  ")
-            escreval("*( 8 )  POTENCIA«√O                  |      (   )     |    ( X )  ")
-            escreval("*( 9 )  RADICIA«√O                   |      (   )     |    ( X )  ")
+            escreval("*( 2 )  SUBTRA√á√ÉO                    |      ( X )     |    (   )  ")
+            escreval("*( 3 )  MULTIPLICA√á√ÉO                |      ( X )     |    (   )  ")
+            escreval("*( 4 )  DIVIS√ÉO E RESTO              |      ( X )     |    (   )  ")
+            escreval("*( 5 )  M√ÅXIMO E MINIMO              |      ( X )     |    ( X )  ")
+            escreval("*( 6 )  M√âDIA ARITM√âTICA             |      ( X )     |    ( X )  ")
+            escreval("*( 7 )  PROGRESS√ÉO ARITM√âTICA        |      (   )     |    ( X )  ")
+            escreval("*( 8 )  POTENCIA√á√ÉO                  |      (   )     |    ( X )  ")
+            escreval("*( 9 )  RADICIA√á√ÉO                   |      (   )     |    ( X )  ")
             escreval("*( 10 ) PORCENTAGEM                  |      (   )     |    ( X )  ")
             escreval("*( 11 ) SAIR PARA O MENU PRINCIPAL.  |                | ")
             escreval("")
             escreval("Digite sua escolha.")
             leia(operaC)
-            //escolha das operaÁıes: caso a caso
+            //escolha das opera√ß√µes: caso a caso
             escolha(operaC)
 
                //caso soma
@@ -238,36 +238,36 @@ Inicio
                escreval("SEGUNDO VALOR")
                leia(b)
                soma<- a+b
-               escreval("A SOMA DOS VALORES … IGUAL ¿:")
+               escreval("A SOMA DOS VALORES √â IGUAL √Ä:")
                escreval("")
                escreval("=====>",soma,".")
                escreval("")
-               escreval("Pressione ENTER para voltar ao menu de operaÁıes")
+               escreval("Pressione ENTER para voltar ao menu de opera√ß√µes")
                leia(operaC)
 
-               //caso subtraÁ„o
+               //caso subtra√ß√£o
             caso 2
                limpatela()
-               escreval(" _____ _   _______ ___________  ___  _____   ___  _____           ")
-               escreval("/  ___| | | | ___ \_   _| ___ \/ _ \/  __ \ / _ \|  _  |          ")
-               escreval("\ `--.| | | | |_/ / | | | |_/ / /_\ \ /  \// /_\ \ | | |  _____   ")
-               escreval(" `--. \ | | | ___ \ | | |    /|  _  | |    |  _  | | | | |_____|  ")
-               escreval("/\__/ / |_| | |_/ / | | | |\ \| | | | \__/\| | | \ \_/ /          ")
-               escreval("\____/ \___/\____/  \_/ \_| \_\_| |_/\____/\_| |_/\___/           ")
+               escreval(" _____ _   _______ ___________  ___  _____    ___  _____           ")
+               escreval("/  ___| | | | ___ \_   _| ___ \/ _ \/  __ \  / _ \|  _  |          ")
+               escreval("\ `--.| | | | |_/ / | | | |_/ / /_\ \ /  \/ / /_\ \ | | |  _____   ")
+               escreval(" `--. \ | | | ___ \ | | |    /|  _  | |     |  _  | | | | |_____|  ")
+               escreval("/\__/ / |_| | |_/ / | | | |\ \| | | | \__/\ | | | \ \_/ /          ")
+               escreval("\____/ \___/\____/  \_/ \_| \_\_| |_/\____/ \_| |_/\___/           ")
                escreval("")
                escreval("PRIMEIRO VALOR")
                leia(a)
                escreval("SEGUNDO VALOR")
                leia(b)
                subtra<- a-b
-               escreval("A SUBTRA«√O DOS VALORES … IGUAL ¿:")
+               escreval("A SUBTRA√á√ÉO DOS VALORES √â IGUAL √Ä:")
                escreval("")
                escreval("=====>",subtra,".")
                escreval("")
-               escreval("Pressione ENTER para voltar ao menu de operaÁıes")
+               escreval("Pressione ENTER para voltar ao menu de opera√ß√µes")
                leia(operaC)
 
-               //caso multiplicaÁ„o
+               //caso multiplica√ß√£o
             caso 3
                limpatela()
                escreval("___  ____   _ _    _____ ___________ _     _____ _____    ___  _____    ___  _____        _         ")
@@ -282,14 +282,14 @@ Inicio
                escreval("SEGUNDO VALOR")
                leia(b)
                multp<- a*b
-               escreval("A MULTIPLICA«√O DOS VALORES … IGUAL ¿:")
+               escreval("A MULTIPLICA√á√ÉO DOS VALORES √â IGUAL √Ä:")
                escreval("")
                escreval("=====>",multp,".")
                escreval("")
-               escreval("Pressione ENTER para voltar ao menu de operaÁıes")
+               escreval("Pressione ENTER para voltar ao menu de opera√ß√µes")
                leia(operaC)
 
-               //caso divis„o e resto
+               //caso divis√£o e resto
             caso 4
                limpatela()
                escreval("______ _____ _   _ _____ _____  ___  _____        __      ")
@@ -305,15 +305,15 @@ Inicio
                leia(m)
                rest<- k % m
                divis<- k/m
-               escreval("A DIVIS√O DOS VALORES … IGUAL ¿:")
+               escreval("A DIVIS√ÉO DOS VALORES √â IGUAL √Ä:")
                escreval("")
                escreval("resto =====>",rest,".")
                escreval("=====>",divis,".")
                escreval("")
-               escreval("Pressione ENTER para voltar ao menu de operaÁıes")
+               escreval("Pressione ENTER para voltar ao menu de opera√ß√µes")
                leia(operaC)
 
-               //caso m·x e min
+               //caso m√°x e min
             caso 5
                limpatela()
                escreval("___  ___  ___  __   __      _____     ___  ________ _   _        ")
@@ -359,16 +359,16 @@ Inicio
                   fimse
                fimse
                escreval("")
-               escreval("O M¡XIMO E O MÕNIMO ENTRE OS VALORES S√O, RESPECTIVAMENTE:")
+               escreval("O M√ÅXIMO E O M√çNIMO ENTRE OS VALORES S√ÉO, RESPECTIVAMENTE:")
                escreval("")
                escreval("=====>",maximo,".")
                escreval("")
                escreval("=====>",minimo,".")
                escreval("")
-               escreval("Pressione ENTER para voltar ao menu de operaÁıes")
+               escreval("Pressione ENTER para voltar ao menu de opera√ß√µes")
                leia(operaC)
 
-               //caso mÈdia aritmÈtica
+               //caso m√©dia aritm√©tica
             caso 6
                limpatela()
                escreval("___  ___ ___________ _____  ___     ")
@@ -384,17 +384,17 @@ Inicio
                leia(valor2)
                escreva ("TERCEIRO VALOR: ")
                leia(valor3)
-               escreval("N⁄MERO DE VALORES")
+               escreval("N√öMERO DE VALORES")
                leia(numMed)
                media <- (valor1+ valor2+ valor3)/numMed
-               escreval("A M…DIA DOS VALORES … IGUAL ¿:")
+               escreval("A M√âDIA DOS VALORES √â IGUAL √Ä:")
                escreval("")
                escreval("=====>",media,".")
                escreval("")
-               escreval("Pressione ENTER para voltar ao menu de operaÁıes")
+               escreval("Pressione ENTER para voltar ao menu de opera√ß√µes")
                leia(operaC)
 
-               //caso progress„o aritmÈtica
+               //caso progress√£o aritm√©tica
             caso 7
                limpatela()
                escreval("____________ _____ _____ ______ _____ _____ _____  ___  _____        ___      ")
@@ -405,69 +405,69 @@ Inicio
                escreval("\_|   \_| \_|\___/ \____/\_| \_\____/\____/\____/\_| |_/\___/      \_| |_(_)  ")
                escreval("")
                escreval("ESCREVA OS VALORES NA ORDEM PEDIDA.")
-               escreval("POSI«√O DO TERMO PROCURADO")
+               escreval("POSI√á√ÉO DO TERMO PROCURADO")
                leia (n)
                escreval("")
-               escreval("PRIMEIRO TERMO DA PROGRESS√O")
+               escreval("PRIMEIRO TERMO DA PROGRESS√ÉO")
                leia (a1)
                escreval("")
-               escreval("SEGUNDO TERMO DA PROGRESS√O")
+               escreval("SEGUNDO TERMO DA PROGRESS√ÉO")
                leia (a2)
                escreval("")
-               //loop para erros de inserÁ„o
+               //loop para erros de inser√ß√£o
                an<- a1+(n-1)*r
                limpatela
-               escreval("VOC  SABE O VALOR DA RAZ√O?")
-               escreval("- digite 1 para sim ou 2 para n„o, por favor.")
+               escreval("VOC√ä SABE O VALOR DA RAZ√ÉO?")
+               escreval("- digite 1 para sim ou 2 para n√£o, por favor.")
                leia (sb)
-               //possibilidade da existÍncia ou n„o da raz„o
-               //para procur·-la ou n„o se necess·rio
+               //possibilidade da exist√™ncia ou n√£o da raz√£o
+               //para procur√°-la ou n√£o se necess√°rio
                escolha (sb)
                   timer (300)
                   // inicio tratamento caso 1
                caso 1
-                  escreval("OK! VocÍ sabe a raz„o, ent„o:")
+                  escreval("OK! Voc√™ sabe a raz√£o, ent√£o:")
                   escreval("")
-                  escreval("Digite a raz„o da progress„o")
+                  escreval("Digite a raz√£o da progress√£o")
                   leia(r)
-                  //finalizaÁ„o com apresentaÁ„o dos resultados procurados
+                  //finaliza√ß√£o com apresenta√ß√£o dos resultados procurados
                   an<- a1+(n-1)*r
                   escreval("")
-                  escreval("O valor na",n"∫ posiÁ„o È ",an,".")
+                  escreval("O valor na",n"¬∫ posi√ß√£o √© ",an,".")
                   escreval("")
-                  escreval("A raz„o desta progress„o È ",r,".")
+                  escreval("A raz√£o desta progress√£o √© ",r,".")
                   escreval("")
                   timer(0)
-                  escreval("Pressione ENTER para voltar ao menu de operaÁıes")
+                  escreval("Pressione ENTER para voltar ao menu de opera√ß√µes")
                   leia(operaC)
 
                   // inicio tratamento caso 2
                caso 2
-                  escreval("Ent„o irei calcular o valor da raz„o.")
+                  escreval("Ent√£o irei calcular o valor da raz√£o.")
                   r <- (a2-a1)
-                  escreval("A raz„o desta progress„o È igual ‡: ",r)
-                  //finalizaÁ„o com apresentaÁ„o dos resultados procurados
+                  escreval("A raz√£o desta progress√£o √© igual √†: ",r)
+                  //finaliza√ß√£o com apresenta√ß√£o dos resultados procurados
                   an<- a1+(n-1)*r
                   escreval("")
-                  escreval("O valor na posiÁ„o ",n," È ",an,".")
+                  escreval("O valor na posi√ß√£o ",n," √© ",an,".")
                   escreval("")
-                  escreval("A raz„o desta progress„o È ",r,".")
+                  escreval("A raz√£o desta progress√£o √© ",r,".")
                   escreval("")
                   timer(0)
                   escreval("")
-                  escreval("Pressione ENTER para voltar ao menu de operaÁıes")
+                  escreval("Pressione ENTER para voltar ao menu de opera√ß√µes")
                   leia(operaC)
 
                   //inicio outrocaso
                outrocaso
-                  escreval("VOC  DIGITOU UM VALOR INV¡LIDO")
+                  escreval("VOC√ä DIGITOU UM VALOR INV√ÅLIDO")
                   timer (0)
                   escreval("")
-                  escreval("Pressione ENTER para voltar ao menu de operaÁıes")
+                  escreval("Pressione ENTER para voltar ao menu de opera√ß√µes")
                   leia(operaC)
                fimescolha
 
-               //caso potenciaÁ„o
+               //caso potencia√ß√£o
             caso 8
                limpatela()
                escreval("______ _____ _____ _____ _   _ _____ _____  ___  _____    ___  _____  ")
@@ -482,14 +482,14 @@ Inicio
                escreval("VALOR DO EXPOENTE")
                leia(b)
                potenc<- (a^b)
-               escreval("A POT NCIA DO VALOR ELEVADO ¿ ",b" È:")
+               escreval("A POT√äNCIA DO VALOR ELEVADO √Ä ",b" √©:")
                escreval("")
                escreval("=====>",potenc,".")
                escreval("")
-               escreval("Pressione ENTER para voltar ao menu de operaÁıes")
+               escreval("Pressione ENTER para voltar ao menu de opera√ß√µes")
                leia(operaC)
 
-               // caso radiciaÁ„o
+               // caso radicia√ß√£o
             caso 9
                limpatela()
                escreval("______  ___ ______ _____ _____ _____  ___  _____    ___  _____   ")
@@ -502,11 +502,11 @@ Inicio
                escreval("VALOR DO RADICANDO")
                leia(a)
                raiz<- (raizq(a))
-               escreval("A RAIZ QUADRADA DO VALOR …:")
+               escreval("A RAIZ QUADRADA DO VALOR √â:")
                escreval("")
                escreval("=====>",raiz,".")
                escreval("")
-               escreval("Pressione ENTER para voltar ao menu de operaÁıes")
+               escreval("Pressione ENTER para voltar ao menu de opera√ß√µes")
                leia(operaC)
 
                //caso porcentagem
@@ -525,11 +525,11 @@ Inicio
                leia(b)
                porcent<- (a*b)/100
                escreval("")
-               escreval("A PORCENTAGEM DO VALOR …:")
+               escreval("A PORCENTAGEM DO VALOR √â:")
                escreval("")
                escreval("=====>",porcent,".")
                escreval("")
-               escreval("Pressione ENTER para voltar ao menu de operaÁıes")
+               escreval("Pressione ENTER para voltar ao menu de opera√ß√µes")
                leia(operaC)
             fimescolha
          fimenquanto
@@ -545,19 +545,19 @@ Inicio
          escreval("    =\_/ __ \_\_______|_/ __ \__D   ")
          escreval("________(__)_____________(__)____   ")
          escreval("")
-         Escreval("Informe a dist‚ncia percorrida em Km:")
+         Escreval("Informe a dist√¢ncia percorrida em Km:")
          Leia (disTan)
-         Escreval("Informe quantos litros o automÛvel gasta por Km: ")
+         Escreval("Informe quantos litros o autom√≥vel gasta por Km: ")
          Leia (gastoAuto)
          escreval("")
          gastoTotal<- distan*gastoAuto
-         escreval("O GASTO TOTAL DO AUTOM”VEL PARA PERCORRER A DIST¬NCIA DE ",disTan," È de:")
-         escreval(gastoTotal," litros de combustÌvel.")
+         escreval("O GASTO TOTAL DO AUTOM√ìVEL PARA PERCORRER A DIST√ÇNCIA DE ",disTan," √© de:")
+         escreval(gastoTotal," litros de combust√≠vel.")
          escreval("")
          escreval("Para voltar ao menu, pressione ENTER.")
          Leia(looP)
 
-         //inicio do caso 4 equaÁıes
+         //inicio do caso 4 equa√ß√µes
       caso 4
          limpatela()
          escreval("")
@@ -570,14 +570,14 @@ Inicio
          escreval("     \|_______|\|___| \__\|_______|\|__|\|__|\|_______|\|_______|\|_______|\_________\   ")
          escreval("                     \|__|                                                \|_________|   ")
          ESCREVAL("")
-         escreval("Digite 1 para equaÁ„o do PRIMEIRO grau.")
-         escreval("Digite 2 para equaÁ„o do SEGUNDO grau.")
+         escreval("Digite 1 para equa√ß√£o do PRIMEIRO grau.")
+         escreval("Digite 2 para equa√ß√£o do SEGUNDO grau.")
          escreval("Digite 3 para voltar ao MENU PRINCIPAL")
          escreval("Escreva sua escolha abaixo:")
          leia(equaCC)
          escolha(equaCC)
 
-            //equaÁ„o do primeiro grau
+            //equa√ß√£o do primeiro grau
          caso 1
             limpatela()
             escreval("............................................................")
@@ -596,9 +596,9 @@ Inicio
             leia (n)
             na<- (n+a)
             se na<0 entao
-               escreval("A È negativo")
+               escreval("A √© negativo")
             senao
-               escreval("A È positivo")
+               escreval("A √© positivo")
             fimse
             escreval(" ")
             escreval("............................................................")
@@ -607,27 +607,27 @@ Inicio
             leia (s)
             sb<- (s+b)
             se sb<0 entao
-               escreval("B È negativo")
+               escreval("B √© negativo")
             senao
-               escreval ("B È positivo")
+               escreval ("B √© positivo")
             fimse
             escreval(" ")
             escreval("............................................................")
             escreval(" ")
             x<- (sb)/(na)
             se x<0 entao
-               escreval("A soluÁ„o È negativa")
+               escreval("A solu√ß√£o √© negativa")
             senao
-               escreval ("A soluÁ„o È positiva")
+               escreval ("A solu√ß√£o √© positiva")
             fimse
             escreval(" ")
             escreval("................................................................")
             escreval(" ")
-            escreval("...............A soluÁ„o para sua equaÁ„o È:",x,"...............")
+            escreval("...............A solu√ß√£o para sua equa√ß√£o √©:",x,"...............")
             escreval(" ")
             escreval("................................................................")
 
-            //equaÁ„o do segundo grau
+            //equa√ß√£o do segundo grau
          caso 2
             limpatela()
             escreval ("Insira o valor de A: ")
@@ -639,19 +639,19 @@ Inicio
             delta <- (b^2-4*a*c)
             se (delta < 0) entao
                escreval ("O valor de delta: ", delta)
-               escreval ("N„o existem soluÁıes reais!")
+               escreval ("N√£o existem solu√ß√µes reais!")
             senao
                se (delta= 0) entao
                   x1<- -b/(2*a)
                   escreval ("O valor de delta: ", delta)
-                  escreval ("Existem duas soluÁıes iguais para a equaÁ„o:", x1:6:2)
+                  escreval ("Existem duas solu√ß√µes iguais para a equa√ß√£o:", x1:6:2)
                senao
                   se (delta> 0) entao
                      x1 <- (-b + raizq(delta))/(2*a)
                      x2 <- (-b - raizq(delta))/(2*a)
                      escreval ("O valor de delta: ", delta)
-                     escreval ("O valor de x1 È: ", x1)
-                     escreval ("o valor de x2 È: ", x2)
+                     escreval ("O valor de x1 √©: ", x1)
+                     escreval ("o valor de x2 √©: ", x2)
                   fimse
                fimse
             fimse
@@ -663,14 +663,14 @@ Inicio
             leia(looP)
          fimescolha
 
-         //calculo do imc com diagnÛstico
+         //calculo do imc com diagn√≥stico
       caso 5
          limpatela()
-         escreval ("==============================C¡LCULO IMC==============================")
+         escreval ("============================================================C√ÅLCULO IMC============================================================")
          escreval (" ")
-         escreval ("O Õndice de Massa Corporal È utilizado para classificar o estado nutricional de indivÌduos adolescentes, adultos, idosos e gestantes.")
+         escreval ("O √çndice de Massa Corporal √© utilizado para classificar o estado nutricional de indiv√≠duos adolescentes, adultos, idosos e gestantes.")
          escreval (" ")
-         escreval ("=======================================================================")
+         escreval ("===================================================================================================================================")
          escreval (" ")
          escreval ("Insira o seu peso em QUILOGRAMAS (Kg): ")
          leia (ps)
@@ -681,28 +681,28 @@ Inicio
 
          imc <- ps/(alt*alt)
 
-         escreval ("O seu Õndice de Massa Corporal (IMC) È: ",imc:5:2," Kg/m≤")
+         escreval ("O seu √çndice de Massa Corporal (IMC) √©: ",imc:5:2," Kg/m¬≤")
          escreval (" ")
          se (imc >= 16) e (imc<=16.9) entao
-            escreval ("====================*VocÍ est· MUITO ABAIXO do peso ideal.*====================")
+            escreval ("====================*Voc√™ est√° MUITO ABAIXO do peso ideal.*====================")
          senao
             se (imc>= 17) e (imc<=18.4) entao
-               escreval("====================*VocÍ est· ABAIXO do peso ideal.*====================")
+               escreval("====================*Voc√™ est√° ABAIXO do peso ideal.*====================")
             senao
                se (imc>=18.5) e (imc<=24.9) entao
-                  escreval ("====================*VocÍ est· com o PESO IDEAL.*====================")
+                  escreval ("====================*Voc√™ est√° com o PESO IDEAL.*====================")
                senao
                   se (imc>= 25) e (imc<=29.9) entao
-                     escreval ("====================*VocÍ est· ACIMA do peso ideal.*====================")
+                     escreval ("====================*Voc√™ est√° ACIMA do peso ideal.*====================")
                   senao
                      se (imc>= 30) e (imc<=34.9) entao
-                        escreval("====================*VocÍ est· com OBESIDADE EM GRAU I.*====================")
+                        escreval("====================*Voc√™ est√° com OBESIDADE EM GRAU I.*====================")
                      senao
                         se (imc >= 35) e (imc<=40) entao
-                           escreval ("====================*VocÍ est· com OBESIDADE EM GRAU II.*====================")
+                           escreval ("====================*Voc√™ est√° com OBESIDADE EM GRAU II.*====================")
                         senao
                            se (imc>40) entao
-                              escreval("====================*VocÍ est· com OBESIDADE EM GRAU III.*====================")
+                              escreval("====================*Voc√™ est√° com OBESIDADE EM GRAU III.*====================")
                            fimse
                         fimse
                      fimse
@@ -714,12 +714,12 @@ Inicio
          escreval("Para voltar ao menu, pressione ENTER.")
          Leia(looP)
 
-         //inicio do caso 6 teorema de pit·goras simples
+         //inicio do caso 6 teorema de pit√°goras simples
       caso 6
          limpatela()
-         escreval("ñññññññññññññññññññññññññññññññññññññññññññññ")
-         escreval("        Teorema de Pit·goras simples")
-         escreval("ñññññññññññññññññññññññññññññññññññññññññññññ")
+         escreval("¬ñ¬ñ¬ñ¬ñ¬ñ¬ñ¬ñ¬ñ¬ñ¬ñ¬ñ¬ñ¬ñ¬ñ¬ñ¬ñ¬ñ¬ñ¬ñ¬ñ¬ñ¬ñ¬ñ¬ñ¬ñ¬ñ¬ñ¬ñ¬ñ¬ñ¬ñ¬ñ¬ñ¬ñ¬ñ¬ñ¬ñ¬ñ¬ñ¬ñ¬ñ¬ñ¬ñ¬ñ¬ñ")
+         escreval("        Teorema de Pit√°goras simples")
+         escreval("¬ñ¬ñ¬ñ¬ñ¬ñ¬ñ¬ñ¬ñ¬ñ¬ñ¬ñ¬ñ¬ñ¬ñ¬ñ¬ñ¬ñ¬ñ¬ñ¬ñ¬ñ¬ñ¬ñ¬ñ¬ñ¬ñ¬ñ¬ñ¬ñ¬ñ¬ñ¬ñ¬ñ¬ñ¬ñ¬ñ¬ñ¬ñ¬ñ¬ñ¬ñ¬ñ¬ñ¬ñ¬ñ")
          escreval ("Valor do cateto oposto: ")
          leia (co)
          escreval ("Valor do cateto adjacente: ")
@@ -727,9 +727,9 @@ Inicio
          hip <- (co^2+ cad^2)
          hip1 <- (raizq(hip))
          escreval(" ")
-         escreva ("O valor da hipotenusa È: ", hip1)
+         escreva ("O valor da hipotenusa √©: ", hip1)
          escreval(" ")
-         escreval("ñññññññññññññññññññññññññññññññññññññññññññññ")
+         escreval("¬ñ¬ñ¬ñ¬ñ¬ñ¬ñ¬ñ¬ñ¬ñ¬ñ¬ñ¬ñ¬ñ¬ñ¬ñ¬ñ¬ñ¬ñ¬ñ¬ñ¬ñ¬ñ¬ñ¬ñ¬ñ¬ñ¬ñ¬ñ¬ñ¬ñ¬ñ¬ñ¬ñ¬ñ¬ñ¬ñ¬ñ¬ñ¬ñ¬ñ¬ñ¬ñ¬ñ¬ñ¬ñ")
          escreval("")
          escreval("Para voltar ao menu, pressione ENTER.")
          Leia(looP)
@@ -737,7 +737,7 @@ Inicio
          //inicio do caso 7 area de poliedros
       caso 7
          limpatela()
-         escreval("¡rea dos sÛlidos geomÈtricos.")
+         escreval("√Årea dos s√≥lidos geom√©tricos.")
          escreval("")
          escreval("         AAAAAaaaaaaaa!               ")
          escreval("                       (   ( )   )     ")
@@ -754,11 +754,11 @@ Inicio
          escreval("              ( ( )   | |              ")
          escreval("              (       ( ) ) )          ")
          escreval("")
-         escreval("Qual sÛlido geomÈtrico vocÍ deseja calcular a ¡REA:")
-         escreval("1 - TRI¬NGULO")
-         escreval("2 - QUADRADO-RET¬NGULO")
-         escreval("3 - TRAP…ZIO")
-         escreval("4 - CÕRCULO")
+         escreval("Qual s√≥lido geom√©trico voc√™ deseja calcular a √ÅREA:")
+         escreval("1 - TRI√ÇNGULO")
+         escreval("2 - QUADRADO-RET√ÇNGULO")
+         escreval("3 - TRAP√âZIO")
+         escreval("4 - C√çRCULO")
          escreval("5 - Voltar ao MENU PRINCIPAL")
          leia(areaSolid)
          escolha(areaSolid)
@@ -768,7 +768,7 @@ Inicio
          caso 1
             limpatela()
             escreval("")
-            escreval("-TRI¬NGULO-")
+            escreval("-TRI√ÇNGULO-")
             escreval("")
             escreval("     /\   ")
             escreval("    /  \  ")
@@ -780,7 +780,7 @@ Inicio
             leia(b)
             areaG<- (a*b)/2
             escreval("")
-            escreval("A ·rea deste TRI¬NGULO È:")
+            escreval("A √°rea deste TRI√ÇNGULO √©:")
             escreval("=====> ",areaG,".")
             escreval("")
             escreval("Para voltar ao menu, pressione ENTER.")
@@ -790,7 +790,7 @@ Inicio
          caso 2
             limpatela()
             escreval("")
-            escreval("-QUADRADO - RET¬NGULO-")
+            escreval("-QUADRADO - RET√ÇNGULO-")
             escreval("")
             ESCREVAL("    _____       _____________   ")
             escreval("   |     |     |             |  ")
@@ -803,17 +803,17 @@ Inicio
             leia(b)
             areaG<- (a*b)
             escreval("")
-            escreval("A ·rea deste QUADRADO | RET¬NGULO È:")
+            escreval("A √°rea deste QUADRADO | RET√ÇNGULO √©:")
             escreval("=====> ",areaG,".")
             escreval("")
             escreval("Para voltar ao menu, pressione ENTER.")
             Leia(looP)
 
-            //TRAP…ZIO
+            //TRAP√âZIO
          caso 3
             limpatela()
             escreval("")
-            escreval("-TRAP…ZIO-")
+            escreval("-TRAP√âZIO-")
             escreval("")
             escreval("     ___________    ")
             escreval("    /           \   ")
@@ -828,17 +828,17 @@ Inicio
             leia(b)
             areaG<-((aA+a)*b)/2
             escreval("")
-            escreval("A ·rea deste TRAP…ZIO È:")
+            escreval("A √°rea deste TRAP√âZIO √©:")
             escreval("=====> ",areaG,".")
             escreval("")
             escreval("Para voltar ao menu, pressione ENTER.")
             Leia(looP)
 
-            //cÌrculo
+            //c√≠rculo
          caso 4
             limpatela()
             escreval("")
-            escreval("-CÕRCULO-")
+            escreval("-C√çRCULO-")
             escreval("")
             escreval("        *  *        ")
             escreval("     *        *     ")
@@ -851,7 +851,7 @@ Inicio
             leia(a)
             areaG<- (a*a)*3.14
             escreval("")
-            escreval("A ·rea deste CÕRCULO È:")
+            escreval("A √°rea deste C√çRCULO √©:")
             escreval("=====> ",areaG,".")
             escreval("")
             escreval("Para voltar ao menu, pressione ENTER.")
@@ -860,16 +860,16 @@ Inicio
       fimescolha
    fimenquanto
 
-   //finalizaÁ„o para saÌda do usu·rio
+   //finaliza√ß√£o para sa√≠da do usu√°rio
    limpatela()
-   escreval("VOC  FINALIZOU SUAS TAREFAS, ADEUS!")
+   escreval("VOC√ä FINALIZOU SUAS TAREFAS, ADEUS!")
    escreval("")
    escreval("OBRIGADO POR USAR ESTE PROGRAMA!")
    escreval("")
-   escreval("         -  _            (∞?∞)                 ")
-   escreval("    _(∞_o)_ (?∞???∞)__  \|_ __________   __    ")
+   escreval("         -  _            (¬∞?¬∞)                 ")
+   escreval("    _(¬∞_o)_ (?¬∞???¬∞)__  \|_ __________   __    ")
    escreval("   |       |       |  | |  |       |  | |  |   ")
-   escreval("   8_     _8       |  |_|  |   _   |  |?ï?  8  ")
+   escreval("   8_     _8       |  |_|  |   _   |  |?¬ï?  8  ")
    escreval("     |   | |      _|       |  |_|  |  |_|  |   ")
    escreval("     |   | |     | |       |       |       |   ")
    escreval("     |   | |     |_|   _   |   _   |       |   ")
