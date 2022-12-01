@@ -1,27 +1,30 @@
-Algoritmo "semnome"
-// Disciplina   : [Linguagem e Lógica de Programação]
-// Professor   : Antonio Carlos Nicolodi
-// Descrição   : Aqui você descreve o que o programa faz! (função)
-// Autor(a)    : Nome do(a) aluno(a)
-// Data atual  : 30/11/2022
+Algoritmo "FATORIAL"
+
+// Descrição   : CALCULA O FATORIAL DO NÚMERO DIGITADO
+// Autor(a)    : DOUGLAS DA COSTA GOMES
+// Data atual  : 01/12/2022
+
 Var
    // Seção de Declarações das variáveis
-   a, x, y, volt: inteiro
+   f, y, a, volt : inteiro
 
 Inicio
    // Seção de Comandos, procedimento, funções, operadores, etc...
    volt<-0
    enquanto volt<>1 faca
-      LIMPATELA()
-      escreval("DIGITE UM VALOR 1 À 10")
+      f<-1
+      escreval("Digite um valor para calcular o <FATORIAL>:::")
       leia(a)
-      x<-1
-      para y de 1 ate a faca
-         escreval(x," x",y," =",x*y)
-         escreval(
-         y<-y*a
+      para y de a ate 2 passo -1 faca
+         escreval(f," x",y," =",y*f)
+         f <- f*y
       fimpara
+      escreval("O FATORIAL DE ",a," É :::: ",f)
       escreval()
+      escreval(">[DIGITE (1) PARA SAIR.]<")
+      escreval()
+      escreval(">[ENTER PARA CONTINUAR]<")
       leia(volt)
    fimenquanto
+   escreval("O programa foi finalizado.")
 Fimalgoritmo
